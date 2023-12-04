@@ -1,1 +1,297 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(()=>{\'2r 2s\';3 m=x.2t||x.2u;3 T=x.19;3 G=\'r-t-y:#\'+x.1F.2v;3 1a=1b(\'r-t-y的作者们都是大帅比!\');3 1G=1b(\'r-t-y是地表最强2w加密插件!\');3 1H="<1c-1I></1c-1I>";3 N=l.A(\'r-t-y\');3 1J=N.1d[\'2x\'];3 1e=N.1d[\'2y\'];3 1f=N.2z(\'1g\')[\'2A\'];3 1K=1f.2B;3 1L=1f.1d[\'2C\'];9 U(s){5 u 1h(s.2D(/[\\2E-f]{2}/2F).2G((h=>{5 2H(h,16)})))}9 1b(s){k i=s.v;k n=0;k a=u 2I()1i(k j=0;j<i;){k c=s.2J(j);7(c<B){a[n++]=c;j++}1j 7((c>2K)&&(c<2L)){a[n++]=(c>>6)|2M;a[n++]=(c&H)|B;j++}1j 7((c>2N)&&(c<2O)){a[n++]=(c>>12)|2P;a[n++]=((c>>6)&H)|B;a[n++]=(c&H)|B;j++}1j{a[n++]=(c>>18)|2Q;a[n++]=((c>>12)&H)|B;a[n++]=((c>>6)&H)|B;a[n++]=(c&H)|B;j+=2}}5 u 1h(a)}9 1M(a){7(1k a!==\'2R\'||a===2S||1k a.2T!==\'2U\'){1N u 2V(\'2W 2X 2Y 2Z 30 31\')}k b=u 1h(a)k c=\'\'k d 1i(k i=0;i<b.v;i++){d=b[i].32(16)c+=(d.v===1?\'0\'+d:d)}5 c}C 9 1O(a){O D=l.1l(\'1g\');3 1P=[\'1Q\',\'33\',\'P\',\'34\',\'35\',\'36\'];1P.1m((V)=>{7(a[V])D[V]=a[V]})5 D}C 9 1R(a){O D=l.1l(\'1n\');D.1S=a;D.1T(\'1g\').1m(C(z)=>{z.37(w 1O(z))});5 D}9 1U(a){O W=u 1V();5 m.o.1o(\'38\',W.1W(a),{\'p\':\'X\',},1X,[\'1p\',\'1Y\',])}9 1Z(a){5 m.o.1p({\'p\':\'X\',\'I\':\'J-q\',\'1q\':1a.Q,\'1r\':20},a,{\'p\':\'1s\',\'I\':\'J-q\',\'v\':q,},Y,[\'1t\',])}9 21(a){5 m.o.1p({\'p\':\'X\',\'I\':\'J-q\',\'1q\':1a.Q,\'1r\':20,},a,{\'p\':\'1u-1v\',\'v\':q,},Y,[\'E\',])}9 22(a){5 m.o.1Y({\'p\':\'X\',\'I\':\'J-q\',\'1q\':1G.Q,\'1r\':39,},a,16*8)}C 9 23(a,b){3 W=u 1V();3 24=W.1W(b);O 1w=U(1L);3 4=w m.o.1t({\'p\':\'1s\',\'I\':\'J-q\',},a,1w,24);R.S(`3a 4:${4}`);7(!4){25(1e);R.S(`${1e},26`,1w,`27 3b 3c.`)}5 4}C 9 E(a,b,c){O 28=U(1K);3 4=w m.o.E({\'p\':\'1u-1v\',\'K\':b,},a,28.Q).F(C(4)=>{3 29=u 3d();3 Z=29.3e(4);7(!Z.3f(1H)){1N"3g 3h 27 3i 3j 3k 3l.";}3 L=l.1l(\'1x\');L.3m=\'3n 3o\';L.1Q=\'1x\';L.3p.3q("1c-1x");L.2a(\'3r\',()=>{x.19.2b(G);x.1F.3s()});l.A(\'r-t-y\').1y.1z=\'1A\';l.A(\'r-t-y\').1S=\'\';l.A(\'r-t-y\').2c(w 1R(Z));l.A(\'r-t-y\').2c(L);l.1T(\'3t\').1m((z)=>{7(z.2d("2e-P")&&!z.P){z.P=z.2d(\'2e-P\')}});x.10&&10.1B&&1k 10.1B.2f===\'9\'&&10.1B.2f();k d=l.A("2g-1n");7(d){d.1y.1z=\'1A\'}k f=l.3u(\'2g-1n-3v\');7(f&&f.v>0){1i(k g=0;g<f.v;g++){f[g].1y.1z=\'1A\'}}k h=u 3w(\'r-t-E\');x.3x(h);5 w 23(c,Z)}).3y((e)=>{25(1J);R.S(e);5 1X});5 4}9 2h(){3 M=2i.3z(T.3A(G));7(M){R.S(`3B 26 3C 19(${G}):`,M);3 2j=U(M.K).Q;3 2k=M.11;3 2l=M.14;m.o.1o(\'15\',2k,{\'p\':\'1u-1v\',\'v\':q,},Y,[\'E\',]).F((2m)=>{m.o.1o(\'15\',2l,{\'p\':\'1s\',\'I\':\'J-q\',\'v\':q,},Y,[\'1t\',]).F((2n)=>{E(2m,2j,2n).F((4)=>{7(!4){T.2b(G)}})})})}N.2a(\'3D\',C(1C)=>{7(1C.3E||1C.3F===13){3 2o=l.A(\'3G\').3H;3 17=w 1U(2o);3 1D=w 1Z(17);3 1E=w 21(17);3 K=w 22(17);E(1E,K,1D).F((4)=>{R.S(`3I 4:${4}`);7(4){m.o.2p(\'15\',1E).F((11)=>{m.o.2p(\'15\',1D).F((14)=>{3 2q={\'11\':11,\'K\':1M(K),\'14\':14,};T.3J(G,2i.3K(2q))})})}})}})}2h()})();',62,233,'|||const|result|return||if||function|||||||||||var|document|cryptoObj||subtle|name|256|hexo||blog|new|length|await|window|encrypt|elem|getElementById|128|async|out|decrypt|then|storageName|63|hash|SHA|iv|hideButton|oldStorageData|mainElement|let|src|buffer|console|log|storage|hexToArray|att|encoder|PBKDF2|true|decoded|NexT|dk|||hmk|jwk||keyMaterial||localStorage|keySalt|textToArray|hbe|dataset|wrongHashMessage|dataElement|script|Uint8Array|for|else|typeof|createElement|forEach|div|importKey|deriveKey|salt|iterations|HMAC|verify|AES|CBC|signature|button|style|display|inline|boot|event|hmacKey|decryptKey|location|ivSalt|knownPrefix|prefix|wrongPassMessage|encryptedData|HmacDigist|arrayBufferToHex|throw|getExecutableScript|attList|type|convertHTMLToElement|innerHTML|querySelectorAll|getKeyMaterial|TextEncoder|encode|false|deriveBits|getHmacKey|1024|getDecryptKey|getIv|verifyContent|encoded|alert|got|but|typedArray|decoder|addEventListener|removeItem|appendChild|getAttribute|data|refresh|toc|hbeLoader|JSON|sIv|sDk|sHmk|dkCK|hmkCK|password|exportKey|newStorageData|use|strict|crypto|msCrypto|pathname|Hexo|wpm|whm|getElementsByTagName|hbeData|innerText|hmacdigest|match|da|gi|map|parseInt|Array|codePointAt|127|2048|192|2047|65536|224|240|object|null|byteLength|number|TypeError|Expected|input|to|be|an|ArrayBuffer|toString|text|crossorigin|defer|referrerpolicy|replaceWith|raw|512|Verification|proved|wrong|TextDecoder|decode|startsWith|Decode|successfully|not|start|with|KnownPrefix|textContent|Encrypt|again|classList|add|click|reload|img|getElementsByClassName|class|Event|dispatchEvent|catch|parse|getItem|Password|from|keydown|isComposing|keyCode|hbePass|value|Decrypt|setItem|stringify'.split('|'),0,{}))
+(() => {
+  'use strict';
+
+  const cryptoObj = window.crypto || window.msCrypto;
+  const storage = window.localStorage;
+
+  const storageName = 'hexo-blog-encrypt:#' + window.location.pathname;
+  const keySalt = textToArray('hexo-blog-encrypt的作者们都是大帅比!');
+  const ivSalt = textToArray('hexo-blog-encrypt是地表最强Hexo加密插件!');
+
+// As we can't detect the wrong password with AES-CBC,
+// so adding an empty div and check it when decrption.
+const knownPrefix = "<hbe-prefix></hbe-prefix>";
+
+  const mainElement = document.getElementById('hexo-blog-encrypt');
+  const wrongPassMessage = mainElement.dataset['wpm'];
+  const wrongHashMessage = mainElement.dataset['whm'];
+  const dataElement = mainElement.getElementsByTagName('script')['hbeData'];
+  const encryptedData = dataElement.innerText;
+  const HmacDigist = dataElement.dataset['hmacdigest'];
+
+  function hexToArray(s) {
+    return new Uint8Array(s.match(/[\da-f]{2}/gi).map((h => {
+      return parseInt(h, 16);
+    })));
+  }
+
+  function textToArray(s) {
+    var i = s.length;
+    var n = 0;
+    var ba = new Array()
+
+    for (var j = 0; j < i;) {
+      var c = s.codePointAt(j);
+      if (c < 128) {
+        ba[n++] = c;
+        j++;
+      } else if ((c > 127) && (c < 2048)) {
+        ba[n++] = (c >> 6) | 192;
+        ba[n++] = (c & 63) | 128;
+        j++;
+      } else if ((c > 2047) && (c < 65536)) {
+        ba[n++] = (c >> 12) | 224;
+        ba[n++] = ((c >> 6) & 63) | 128;
+        ba[n++] = (c & 63) | 128;
+        j++;
+      } else {
+        ba[n++] = (c >> 18) | 240;
+        ba[n++] = ((c >> 12) & 63) | 128;
+        ba[n++] = ((c >> 6) & 63) | 128;
+        ba[n++] = (c & 63) | 128;
+        j += 2;
+      }
+    }
+    return new Uint8Array(ba);
+  }
+
+  function arrayBufferToHex(arrayBuffer) {
+    if (typeof arrayBuffer !== 'object' || arrayBuffer === null || typeof arrayBuffer.byteLength !== 'number') {
+      throw new TypeError('Expected input to be an ArrayBuffer')
+    }
+
+    var view = new Uint8Array(arrayBuffer)
+    var result = ''
+    var value
+
+    for (var i = 0; i < view.length; i++) {
+      value = view[i].toString(16)
+      result += (value.length === 1 ? '0' + value : value)
+    }
+
+    return result
+  }
+
+  async function getExecutableScript(oldElem) {
+    let out = document.createElement('script');
+    const attList = ['type', 'text', 'src', 'crossorigin', 'defer', 'referrerpolicy'];
+    attList.forEach((att) => {
+      if (oldElem[att])
+        out[att] = oldElem[att];
+    })
+
+    return out;
+  }
+
+  async function convertHTMLToElement(content) {
+    let out = document.createElement('div');
+    out.innerHTML = content;
+    out.querySelectorAll('script').forEach(async (elem) => {
+      elem.replaceWith(await getExecutableScript(elem));
+    });
+
+    return out;
+  }
+
+  function getKeyMaterial(password) {
+    let encoder = new TextEncoder();
+    return cryptoObj.subtle.importKey(
+      'raw',
+      encoder.encode(password),
+      {
+        'name': 'PBKDF2',
+      },
+      false,
+      [
+        'deriveKey',
+        'deriveBits',
+      ]
+    );
+  }
+
+  function getHmacKey(keyMaterial) {
+    return cryptoObj.subtle.deriveKey({
+      'name': 'PBKDF2',
+      'hash': 'SHA-256',
+      'salt': keySalt.buffer,
+      'iterations': 1024
+    }, keyMaterial, {
+      'name': 'HMAC',
+      'hash': 'SHA-256',
+      'length': 256,
+    }, true, [
+      'verify',
+    ]);
+  }
+
+  function getDecryptKey(keyMaterial) {
+    return cryptoObj.subtle.deriveKey({
+      'name': 'PBKDF2',
+      'hash': 'SHA-256',
+      'salt': keySalt.buffer,
+      'iterations': 1024,
+    }, keyMaterial, {
+      'name': 'AES-CBC',
+      'length': 256,
+    }, true, [
+      'decrypt',
+    ]);
+  }
+
+  function getIv(keyMaterial) {
+    return cryptoObj.subtle.deriveBits({
+      'name': 'PBKDF2',
+      'hash': 'SHA-256',
+      'salt': ivSalt.buffer,
+      'iterations': 512,
+    }, keyMaterial, 16 * 8);
+  }
+
+  async function verifyContent(key, content) {
+    const encoder = new TextEncoder();
+    const encoded = encoder.encode(content);
+
+    let signature = hexToArray(HmacDigist);
+
+    const result = await cryptoObj.subtle.verify({
+      'name': 'HMAC',
+      'hash': 'SHA-256',
+    }, key, signature, encoded);
+    console.log(`Verification result: ${result}`);
+    if (!result) {
+      alert(wrongHashMessage);
+      console.log(`${wrongHashMessage}, got `, signature, ` but proved wrong.`);
+    }
+    return result;
+  }
+
+  async function decrypt(decryptKey, iv, hmacKey) {
+    let typedArray = hexToArray(encryptedData);
+
+    const result = await cryptoObj.subtle.decrypt({
+      'name': 'AES-CBC',
+      'iv': iv,
+    }, decryptKey, typedArray.buffer).then(async (result) => {
+      const decoder = new TextDecoder();
+      const decoded = decoder.decode(result);
+
+      // check the prefix, if not then we can sure here is wrong password.
+      if (!decoded.startsWith(knownPrefix)) {
+        throw "Decode successfully but not start with KnownPrefix.";
+      }
+
+      const hideButton = document.createElement('button');
+      hideButton.textContent = 'Encrypt again';
+      hideButton.type = 'button';
+      hideButton.classList.add("hbe-button");
+      hideButton.addEventListener('click', () => {
+        window.localStorage.removeItem(storageName);
+        window.location.reload();
+      });
+
+      document.getElementById('hexo-blog-encrypt').style.display = 'inline';
+      document.getElementById('hexo-blog-encrypt').innerHTML = '';
+      document.getElementById('hexo-blog-encrypt').appendChild(await convertHTMLToElement(decoded));
+      document.getElementById('hexo-blog-encrypt').appendChild(hideButton);
+
+      // support html5 lazyload functionality.
+      document.querySelectorAll('img').forEach((elem) => {
+        if (elem.getAttribute("data-src") && !elem.src) {
+          elem.src = elem.getAttribute('data-src');
+        }
+      });
+
+      // support theme-next refresh
+      window.NexT && NexT.boot && typeof NexT.boot.refresh === 'function' && NexT.boot.refresh();
+
+      // TOC part
+      var tocDiv = document.getElementById("toc-div");
+      if (tocDiv) {
+        tocDiv.style.display = 'inline';
+      }
+
+      var tocDivs = document.getElementsByClassName('toc-div-class');
+      if (tocDivs && tocDivs.length > 0) {
+        for (var idx = 0; idx < tocDivs.length; idx++) {
+          tocDivs[idx].style.display = 'inline';
+        }
+      }
+      
+      // trigger event
+      var event = new Event('hexo-blog-decrypt');
+      window.dispatchEvent(event);
+
+      return await verifyContent(hmacKey, decoded);
+    }).catch((e) => {
+      alert(wrongPassMessage);
+      console.log(e);
+      return false;
+    });
+
+    return result;
+
+  }
+
+  function hbeLoader() {
+
+    const oldStorageData = JSON.parse(storage.getItem(storageName));
+
+    if (oldStorageData) {
+      console.log(`Password got from localStorage(${storageName}): `, oldStorageData);
+
+      const sIv = hexToArray(oldStorageData.iv).buffer;
+      const sDk = oldStorageData.dk;
+      const sHmk = oldStorageData.hmk;
+
+      cryptoObj.subtle.importKey('jwk', sDk, {
+        'name': 'AES-CBC',
+        'length': 256,
+      }, true, [
+        'decrypt',
+      ]).then((dkCK) => {
+        cryptoObj.subtle.importKey('jwk', sHmk, {
+          'name': 'HMAC',
+          'hash': 'SHA-256',
+          'length': 256,
+        }, true, [
+          'verify',
+        ]).then((hmkCK) => {
+          decrypt(dkCK, sIv, hmkCK).then((result) => {
+            if (!result) {
+              storage.removeItem(storageName);
+            }
+          });
+        });
+      });
+    }
+
+    mainElement.addEventListener('keydown', async (event) => {
+      if (event.isComposing || event.keyCode === 13) {
+        const password = document.getElementById('hbePass').value;
+        const keyMaterial = await getKeyMaterial(password);
+        const hmacKey = await getHmacKey(keyMaterial);
+        const decryptKey = await getDecryptKey(keyMaterial);
+        const iv = await getIv(keyMaterial);
+
+        decrypt(decryptKey, iv, hmacKey).then((result) => {
+          console.log(`Decrypt result: ${result}`);
+          if (result) {
+            cryptoObj.subtle.exportKey('jwk', decryptKey).then((dk) => {
+              cryptoObj.subtle.exportKey('jwk', hmacKey).then((hmk) => {
+                const newStorageData = {
+                  'dk': dk,
+                  'iv': arrayBufferToHex(iv),
+                  'hmk': hmk,
+                };
+                storage.setItem(storageName, JSON.stringify(newStorageData));
+              });
+            });
+          }
+        });
+      }
+    });
+  }
+
+  hbeLoader();
+
+})();
