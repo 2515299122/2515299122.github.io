@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bing&#39;s Blog</title>
+  
+  
+  <link href="https://blog.bingw.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.bingw.top/"/>
+  <updated>2023-12-12T12:50:14.000Z</updated>
+  <id>https://blog.bingw.top/</id>
+  
+  <author>
+    <name>冰冰</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>配置多个ssh账户</title>
+    <link href="https://blog.bingw.top/5320236c27ac72/"/>
+    <id>https://blog.bingw.top/5320236c27ac72/</id>
+    <published>2023-12-05T20:53:33.000Z</published>
+    <updated>2023-12-12T12:50:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="story post-story"><h2 id="生成密钥">生成密钥</h2><ol type="1"><li>检查已生成的SSH-key</li></ol><div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh</span></code></pre></div><ol start="2" type="1"><li>生成SSH-key</li></ol><div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> rsa <span class="at">-C</span> <span class="st">&quot;youremail@example.com&quot;</span> <span class="at">-f</span> ~/.ssh/github_id_rsa</span></code></pre></div><p>其中<span class='p red'>-C youremail@example.com</span>可以省略，只是标识了对应密钥的邮箱而已，<span class='p red'>github_id_rsa</span>是最后生成的文件名称，会保存在<span class='p blue'>~/.ssh/</span>下面，注意生成的不同key的文件名不要重复。</p><p><img src="https://bu.dusays.com/2023/12/05/656f1fb560865.png" class="lazyload" data-srcset="https://bu.dusays.com/2023/12/05/656f1fb560865.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p></div><div class="story post-story"><h2 id="配置文件config">配置文件config</h2><pre><code># Github bingw0919Host bingw0919.github.comHostName github.comPreferredAuthentications publickeyIdentityFile C:\Users\Administrator\.ssh\hp# Github 2515299122Host 2515299122.github.comHostName github.comPreferredAuthentications publickeyIdentityFile C:\Users\Administrator\.ssh\id_rsa</code></pre><table><thead><tr class="header"><th>字段</th><th>介绍</th></tr></thead><tbody><tr class="odd"><td>Host</td><td>Host 远程仓库的地址</td></tr><tr class="even"><td>HostName</td><td>托管网站的域名</td></tr><tr class="odd"><td>PreferredAuthentications</td><td>默认即可</td></tr><tr class="even"><td>IdentityFile</td><td>证书文件路径</td></tr></tbody></table></div><div class="story post-story"><h2 id="配置密钥">配置密钥</h2><p>实在不会的话搜一下各平台怎么添加ssh密钥吧</p></div><div class="story post-story"><h2 id="验证ssh">验证SSH</h2><div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-T</span> git@bingw0919.github.com</span><span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-T</span> git@2515299122.github.com</span></code></pre></div><p>正常单配置文件只需要使用<span class='p red'>ssh -T git@github.com</span>，多配置则需要指定连接，对应config文件中的Host即可</p><ol type="1"><li>测试2515299122</li></ol><p><img src="https://bu.dusays.com/2023/12/05/656f22f0b0f08.png" class="lazyload" data-srcset="https://bu.dusays.com/2023/12/05/656f22f0b0f08.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p><ol start="2" type="1"><li>测试bingw0919</li></ol><p><img src="https://bu.dusays.com/2023/12/05/656f2316ac81d.png" class="lazyload" data-srcset="https://bu.dusays.com/2023/12/05/656f2316ac81d.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p></div><div class="story post-story"><h2 id="修改.git配置文件">修改.git配置文件</h2><p>以上配置完毕后，可能会发现git仓库的各种操作可能会操作失败，这是因为电脑默认请求的是<span class='p red'>git@github.com</span>，因而对于~/.ssh/config下的配置不知道使用哪个密钥，此时可以进入仓库修改.git/config下的origin字段为上面配置的Host即可。</p><p><img src="https://bu.dusays.com/2023/12/05/656f2458a141d.png" class="lazyload" data-srcset="https://bu.dusays.com/2023/12/05/656f2458a141d.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p><p>修改后的文件为：</p><p><img src="https://bu.dusays.com/2023/12/05/656f2490050d1.png" class="lazyload" data-srcset="https://bu.dusays.com/2023/12/05/656f2490050d1.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></p><p>此时就可以和单配置一样正常操作了</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;story post-story&quot;&gt;&lt;h2 id=&quot;生成密钥&quot;&gt;生成密钥&lt;/h2&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;检查已生成的SSH-key&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;sourceCode&quot; id=&quot;cb1&quot;&gt;&lt;pre class</summary>
+      
+    
+    
+    
+    <category term="Git" scheme="https://blog.bingw.top/categories/Git/"/>
+    
+    
+    <category term="SSH" scheme="https://blog.bingw.top/tags/SSH/"/>
+    
+    <category term="Git" scheme="https://blog.bingw.top/tags/Git/"/>
+    
+  </entry>
+  
+</feed>
